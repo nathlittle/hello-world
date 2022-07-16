@@ -1,0 +1,140 @@
+First Code learnt on 16 JULY 2022
+
+Code includes hmtl for 
+	Main page
+	Secondary Dashboard page
+	Log On page
+
+MAIN PAGE
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan HTML FES</title>
+  </head>
+  <body>
+    <!--The body is where all the webpage text will appear-->
+    <h1>Frontend Simplified heading 1</h1>
+    <!--BLOCL ELEMENT-->
+    <h2>Frontend Simplified heading 2</h2>
+    <!--BLOCK ELEMENT-->
+    <p>
+      Lorem30 ipsum dolor sit amet consectetur adipisicing elit. Eos dolorem ut
+      reprehenderit voluptates! Officia ratione iusto quasi vitae, ad doloribus
+      aspernatur animi, libero cupiditate pariatur placeat. Doloribus
+      dignissimos quis corrupti.
+    </p>
+    <!--BLOCK ELEMENT-->
+    <p>123</p>
+    <div>
+      <!--Used to break up INLINE ELEMENTS inside TAG to go to new code lines-->
+      <button>321</button>
+      <!--INLINE ELEMENT-->
+      <b>BOLD</b>
+      <!--INLINE ELEMENT-->
+      <b>BOLD</b> <i>Italics</i> <button>button here</button>
+      <!--INLINE ELEMENTS-->
+    </div>
+    <!-- creating a link to the Google Homepage opening up in a new TAB with the target="" option-->
+    <a href="https://google.com" target="_blank">Google</a>
+    <!-- creating a link to the Google Homepage opening up in a new TAB with the target="" option-->
+    <a href="/dashboard.html">Nathans Dashboard</a>
+  </body>
+</html>
+
+
+DASHBOARD PAGE
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav>
+      DASHBOARD LOGO
+      <a href="index.html">Nathans Frontend Homepage</a>
+    </nav>
+    <main>
+      <section>
+        <h1>To Do List</h1>
+        <p>Lets get this done before 28 Aug 2022</p>
+        <img src="./Assets/20170304_121614.jpg" alt="" />
+        <ul>
+          <!--Unordered List sorts list items (li) with bullet points-->
+          <li>Finish FES Course</li>
+          <li>Apply for Frontend Positions</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Steps to Take</h1>
+        <p>Lets get this done before Australia</p>
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+        />
+        <img
+          src="./Assets/subassets/dan-farrell-fT49QnFucQ8-unsplash.jpg"
+          alt=""
+        />
+        <ol>
+          <!--will place list items in a numerical order-->
+          <li>Finish FES course</li>
+          <li>Update Resume</li>
+          <li>Apply for Frontend posiitons</li>
+        </ol>
+      </section>
+    </main>
+    <footer>Copyright and Terms and Conditions</footer>
+  </body>
+</html>
+
+
+LOG ON PAGE
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+  </head>
+  <body>
+    <h1>Log In</h1>
+    <form>
+      <div>
+        <label>Email</label>
+        <textarea rows="10"></textarea>
+      </div>
+      <hr />
+      <div>
+        <label>Password</label>
+        <input type="password" required />
+      </div>
+      <hr />
+      <div>
+        <label>Confirm Password</label>
+        <input type="password" required />
+      </div>
+      <hr />
+      <div>
+        <label>Age</label>
+        <input type="number" />
+      </div>
+      <hr />
+      <div>
+        <label>Date</label>
+        <input type="date" />
+      </div>
+      <hr />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
